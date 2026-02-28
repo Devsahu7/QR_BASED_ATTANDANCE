@@ -1,0 +1,96 @@
+/* === Student Scanner Style === */
+*{
+  margin: 0;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  background: radial-gradient(circle at top, #0f172a, #1e293b);
+  color: #f8fafc;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #38bdf8;
+  margin-bottom: 15px;
+  text-shadow: 0px 0px 10px #38bdf8;
+}
+
+.userId {
+  /* margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 3px;
+  outline: none;
+  width: 200px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  text-align: center;
+  outline: red;
+  box-shadow: red;
+  text-box-edge: initial;
+  border-radius: 30px;
+  text-decoration-color: red; */
+  border: 3px dashed #ef2917;
+  border-radius: 15px;
+  padding: 10px;
+  width: 120px;
+  height: 15px;
+  margin: 30 10 30 10;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+  margin-bottom: 10;
+}
+.userId::placeholder{
+    /* color: rgb(137, 1, 179);
+    /* text-shadow:  black; */
+    text-decoration-thickness: inherit;
+    text-decoration: underline; */
+  }
+#reader {
+  border: 3px dashed #38bdf8;
+  border-radius: 15px;
+  padding: 10px;
+  width: 320px;
+  height: 320px;
+  /* margin: 1000 100  10; */
+  margin-left: 585.600px;
+  margin-right: 305.600px;
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+}
+
+#reader video {
+  border-radius: 12px;
+}
+
+input::placeholder {
+  color: #94a3b8;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px #38bdf8;
+  }
+
+  50% {
+    box-shadow: 0 0 20px #0ea5e9;
+  }
+
+  100% {
+    box-shadow: 0 0 10px #38bdf8;
+  }
+}
+
+#reader {
+  animation: glow 2s infinite;
+}
+.inputholder{
+  letter-spacing: 5;
+  align-content: space-evenly;
+  justify-items: auto;
+  justify-content: space-around;
+}
